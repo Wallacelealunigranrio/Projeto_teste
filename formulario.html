@@ -1,0 +1,169 @@
+<!doctype html>
+
+<head>
+	<title>Contato</title>
+	<link rel="stylesheet" href="stilo/css.css" type="text/css" media="screen" />
+    <!--<script src="js/script.js"></script> -->
+    
+    <meta charset="utf-8"/>
+    <script  src="script.js">
+          
+
+        
+            
+            
+          
+            </script>
+</head>
+<body>
+
+	<header>
+		<h1>Sonho de Doces</h1>
+	</header>
+	<nav>
+		<ul>
+			<li class="selected"><a href="index.html">Inicio</a></li>
+			<li><a href="quemsomos.html">Quem Somos</a></li>
+			<li><a href="produtos.html">Produtos</a></li>
+			<li><a href="formulario.html">Contato</a></li>
+			<li></li>
+		</ul>
+	</nav>
+	<section id="intro">
+		<header>
+			<h2>O melhor pdroduto para voçê</h2>
+		</header>
+		<p>Sonho de sabores para todos os tipos de situações casamentos, festas e etc...<br/><br/><br/></p>
+	  <img src="stilo/images/introimage.png" alt="lime" />
+	</section>
+    
+   
+    <div id="innercontent" onload="calcular()">
+        
+        <article class="articlecontent" onload="calcular()">
+            <header>
+
+                
+                    
+
+                <h2>Faça Seu Pedido</h2>
+    <h3>Bolos</h3>
+   Morango R$63,00 &nbsp Chocolate 59,00 &nbsp Baunilha 50,00 &nbsp Maracuja 45,00 &nbsp Napolitano R$35,00
+ <form type="form" name="form2">
+Morango &nbsp
+<input type="text" size="1" value="0" name="qmorango" id="qmorango" />
+<input type="text" size="5" value="" name="precomorango" /> <br/><br/>
+Chcolate &nbsp 
+<input type="text" size="1" value="0" name="qchocolate" id="qchocolate" />
+<input type="text" size="5" value="" name="precochocolate" id="precochocolate" readonly=“true” /> <br/><br/>
+Baunilha &nbsp 
+<input type="text" size="1" value="0" name="qbaunilha" id="qbaunilha" />
+<input type="text" size="5" value="" name="precobaunilha" id="precobaunilha" readonly=“true”/> <br/><br/>
+Maracuja &nbsp 
+<input type="text" size="1" value="0" name="qmaracuja" id="qmaracuja"/>
+<input type="text" size="5" value="" name="precomaracuja" id="precomaracuja" readonly=“true”/> <br/><br/>
+Napolitano 
+<input type="text" size="1" value="0" name="qnapolitano" id="qnapolitano"/>
+<input type="text" size="5" value="" name="preconapolitano" id="preconapolitano" readonly=“true”/> <br/><br/> <br/>
+
+
+<h3>Kits Festa</h3>
+Pequeno R$220,00 &nbsp Medio 300,00 &nbsp Grande 410,00 <br/>
+Pequeno &nbsp
+
+<input type="text" size="1" value="0" name="qpequeno" id="qpequeno" />
+<input type="text" size="5" value="" name="precopequeno" id="precopequeno" readonly=“true”/> <br/><br/>
+Medio &nbsp &nbsp &nbsp 
+<input type="text" size="1" value="0" name="qmedio" id="qmedio" />
+<input type="text" size="5" value="" name="precomedio" id="precomedio" readonly=“true” /> <br/><br/>
+Grande &nbsp &nbsp 
+<input type="text" size="1" value="0" name="qgrande" id="qgrande" />
+<input type="text" size="5" value="" name="precogrande" id="precogrande" readonly=“true”/> <br/><br/>
+
+<h3>Salgados</h3>
+Diversos 100 Unid - R$40,00 &nbsp Empadinhas 100 Unid - R$80,00 Empadinhas Camarao 100 Unid - R$100,00 <br/>
+
+Coxinha &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input type="text" size="1" value="0" name="qcoxinha" id="qcoxinha" />
+<input type="text" size="5" value="" name="precocoxinha" id="precocoxinha" readonly=“true”/> <br/><br/>
+Risóle &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input type="text" size="1" value="0" name="qrisole" id="qrisole" />
+<input type="text" size="5" value="" name="precorisole" id="precorisole" readonly=“true” /> <br/><br/>
+Empad Frango  &nbsp &nbsp 
+<input type="text" size="1" value="0" name="qfrango" id="qfrango" />
+<input type="text" size="5" value="" name="precofrango" id="precofrango" readonly=“true”/> <br/><br/>
+Empad Camarão &nbsp 
+<input type="text" size="1" value="0" name="qcamarao" id="qcamarao" />
+<input type="text" size="5" value="" name="precocamarao" id="precocamarao" readonly=“true”/> <br/><br/>
+
+<center> Total R$<input type="text" size="5" value="" name="total" id="total" readonly=“true”/> <br/><br/>
+</center>
+
+<!--<h2>Preencha o formulario para entra em contato</h2> -->
+                        
+                        
+                    Nome: &nbsp &nbsp<input type="text" name="nome" id="nome">*<br/><br/>
+					Telefone: <input type="tel"  name="telefone" id="telefone "class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000"/>*<br/> <br/>
+                        
+                    Cidade:&nbsp &nbsp<input type="text" name="cidade" id="cidade"/>*<br/><br/>
+                    Bairro:&nbsp &nbsp <input type="text" name="bairro" id="bairro"/>*<br/><br/>Endereço:&nbsp <input type="text" name="rua" id="endereco"/>*<br/><br/>
+                      
+                    Email:&nbsp &nbsp &nbsp &nbsp </td><td><input type="email" name="email"/><br/><br/>
+
+
+
+<center> 
+    <input type="button"  value="  OK  " id="btncalcular" onclick="calcular()"/>
+    
+ </center>
+</form> 
+        
+        
+            </header>
+        </article>
+        <article class="articlecontent">
+        </article>
+    </form>
+</div>
+
+	<div id="innercontent">
+				<article class="articlecontent">
+					<header>
+                        
+                   
+                    <table>
+                    
+                </table>
+					</header>
+				</article>
+				<article class="articlecontent">
+				</article>
+
+</div>
+		
+		<aside></aside>
+
+	<footer>
+    <section>
+    <h3>Contatos</h3>
+    <p>(21) 99999-9999</p>
+    <p>sonhodedoce@email.com</p>
+    </section>
+    
+    <section>
+    <h3>Endereço</h3>
+     <p>Rua Alegre nº 242</p>
+    <p>Rio de Janeiro - RJ</p>
+    </section>
+    
+    <section>
+    
+    <p>&copy; 2020</p>
+	<p>Obrigado por visitar nosso site!</p>
+    
+    </section>
+
+	</footer>
+
+</body>
+</html>
